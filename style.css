@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+}
+
+header h1{
+color: orange;
+font-size: 60px;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li{
+    
+    margin-right: 30px;
+}
+
+header{
+    height: 240px;
+    padding: 10px 0px;
+    background-color: rgb(43, 37, 37);
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    padding-top: 24vh;
+}
+
+.icon{
+    padding-top: 16vh;
+    padding-left: 200px;
+    padding-right: 180px;
+}
+
+.one{
+    background-color:rgba(255, 81, 0, 0.849);
+    padding:12px 30px;
+    border-radius: 12px;
+}
+
+/* GemeinsamerTeil */
+
+
+.div_inner1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.div_inner2{
+    display: flex;
+    justify-content: space-around;
+}
+
+article h1{
+    text-align: center;
+    font-size: 47px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+footer{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 30px;
+}
+
+footer p{
+    padding-top: 20px;
+}
+.img{
+    position: absolute;
+    top: 270px;
+    left: 1220px;
+
+}
+.img_2{
+    position: absolute;
+    left: 411px;
+    top: 280px;
+}
